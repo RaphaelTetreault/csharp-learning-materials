@@ -2,7 +2,7 @@ using System;
 
 class Program
 {
-    static void Main ()
+    static void Main()
     {
         // Declare a variable to store health.
         // Assign it the value of 1,000.
