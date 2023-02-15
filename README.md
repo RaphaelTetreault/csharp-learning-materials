@@ -9,3 +9,10 @@ The repository is meant to house a number of C# examples which explore foundatio
 
 The GitHub repository is located here: https://github.com/RaphaelTetreault/csharp-learning-materials. 
 
+## Dependencies
+
+The code samples in this project do not have any dependencies. However, generating HTML files require the use of `pandoc` to convert Markdown `.md` files into HTML `.html`. This in turn requires `python` to convert the input code (in this case C# `.cs`) into Markdown `.md`. Thus the chain is `.cs` -> `.md` -> `.html`.
+
+- Python: https://www.python.org/downloads/
+- Pandoc: https://pandoc.org/
+

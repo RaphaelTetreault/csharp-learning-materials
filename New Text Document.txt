@@ -1,8 +1,0 @@
-    :: CD "%%i" & START /WAIT python make-cs-markdown-html.py
-
-
-
-FOR /r %%i in (%mypath%) do (
-    :: process all template files, include markdown tables
-    CD "%%i" & START /WAIT python %myPath%make-cs-markdown-html.py
-)
