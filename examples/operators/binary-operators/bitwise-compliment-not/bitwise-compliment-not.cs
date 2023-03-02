@@ -11,6 +11,7 @@ class Program
         Console.WriteLine($"{nameof(value)} : {ToBinaryString(value)}, {value}.");
 
         // Let's perform a bitwise NOT using the tilda character '~'.
+        // The operator returns an int, so we must cast the value back to a byte.
         byte result = (byte)~value;
         
         // Let's see the result

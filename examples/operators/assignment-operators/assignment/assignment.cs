@@ -26,17 +26,10 @@ class Program
         // new to C# or programming.
         Console.WriteLine($"{nameof(wholeNumber)}: {wholeNumber}");
         Console.WriteLine($"{nameof(decimalNumber)}: {decimalNumber}");
-        Console.WriteLine($"{nameof(sentence)}: \"{sentence}\"");
+        Console.WriteLine($"{nameof(sentence)}: {sentence}");
 
         // The nameof() used here is a special C# expression. It gets replaced  
         // with a string value which matches the name of the value passed in
         // when our code gets compiled.
-        
-        // The \" is called an escape sequence. Recall that we define a string
-        // inside two quotation marks. However, what if we want to print a
-        // quotation mark inside a string? We need a way to tell C# to print
-        // the character instead of interpreting it as part of our code. The
-        // backslash character '\' begins the escape sequence, telling C#
-        // to treat the next character " differently; \" prints ".
     }
 }
