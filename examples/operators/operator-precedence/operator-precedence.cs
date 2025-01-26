@@ -26,16 +26,20 @@ class Program
         Console.WriteLine($" 2 + 3  * 10 = {result1}");
         Console.WriteLine($"(2 + 3) * 10 = {result2}");
         
-        // This shines light on operators. Every operator in an expression has
-        // a defined "order of execution." You can review them all here.
+        // This shines light on operators. Every operator in an expression and
+        // has a defined "order of execution." You can review them all here.
         // In an IDE, you can likely do CTRL+Click the link below to follow it:
         // https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/#operator-precedence
 
-        // What is likely most import to a beginner are the following
-        // The list is from highest precendence to lowest (first to last)
-        // #1 Arithmetic
-        //      Multiplicative: *, /, %, (multiply, divide)
-        //      Additive: +, -, (add, subtract)
-        // #2 Relational
+        // What is likely most import are the following.
+        // Note: The list is from highest precendence to lowest (first to last)
+        // #1 Anything inside parentheses
+        // #2 Arithmetic (Multiplicative): *, /, %
+        // #3 Arithmetic (Additive): +, -
+        // #4 Relational: >, <, >=, <=
+        // #5 Equality: ==, !=
+        // #6 Conditional AND: &&
+        // #7 Conditional OR: ||
+        // #8 Assignment: =, +=, -=, *=, /=, %=
     }
 }

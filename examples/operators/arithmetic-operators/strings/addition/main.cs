@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        // We can add numbers together using the '+' sign
+        // We can add strings together using the '+' sign
         Console.WriteLine($"Hello, " + "World!");
         Console.WriteLine();
 
